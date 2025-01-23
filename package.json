@@ -1,6 +1,7 @@
 {
   "name": "tailwindcss-aria",
   "type": "module",
+  "author": "Miquel de Domingo",
   "description": "A Tailwind CSS plugin that adds support for ARIA attributes",
   "version": "0.0.0",
   "module": "./src/index.ts",
