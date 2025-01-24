@@ -7,7 +7,7 @@ on:
 permissions: {}
 jobs:
   release:
-    if: github.repository == 'mikededo/tailwindcss-aria'
+    if: github.repository == 'mikededo/tw-aria'
     permissions:
       contents: write # to create release
       pull-requests: write # to create pull request (changesets/action)
