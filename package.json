@@ -15,13 +15,21 @@
     "tailwindcss",
     "aria"
   ],
-  "module": "./src/index.ts",
-  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
-    "./src/*.ts",
-    "./src/index.d.ts"
+    "dist"
   ],
   "scripts": {
+    "build": "unbuild",
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "eslint . --fix",
     "test": "vitest --watch=false --globals"
@@ -35,6 +43,7 @@
     "@changesets/cli": "^2.27.11",
     "@svitejs/changesets-changelog-github-compact": "^1.2.0",
     "eslint": "^9.18.0",
+    "unbuild": "^3.3.1",
     "vitest": "^3.0.4"
   }
 }

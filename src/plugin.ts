@@ -28,7 +28,8 @@ export const ARIA = {
   sort: ['none', 'ascending', 'descending', 'other'],
 };
 
-export const aria = () => plugin(({ addVariant }) => {
+export type Aria = () => ReturnType<typeof plugin>;
+export const aria: Aria = () => plugin(({ addVariant }) => {
   let key: keyof typeof ARIA;
   for (key in ARIA) {
     if (ARIA[key] instanceof Function) {
