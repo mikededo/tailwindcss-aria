@@ -1,5 +1,11 @@
 # tw-aria
 
+## 1.0.2
+
+### Patch Changes
+
+- Add `files` in `package.json` ([`4203829`](https://github.com/mikededo/tw-aria/commit/4203829938bdb6eca77b8445a95802a118e2add9))
+
 ## 1.0.1
 
 ### Patch Changes
