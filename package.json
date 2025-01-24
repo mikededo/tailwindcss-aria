@@ -5,12 +5,12 @@
   "description": "A Tailwind CSS plugin that adds support for ARIA attributes",
   "author": "Miquel de Domingo",
   "license": "MIT",
-  "homepage": "https://github.com/mikededo/tailwindcss-aria",
+  "homepage": "https://github.com/mikededo/tw-aria",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikededo/tailwindcss-aria.git"
+    "url": "git+https://github.com/mikededo/tw-aria.git"
   },
-  "bugs": "https://github.com/mikededo/tailwindcss-aria/issues",
+  "bugs": "https://github.com/mikededo/tw-aria/issues",
   "keywords": [
     "tailwindcss",
     "aria"
