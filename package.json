@@ -1,7 +1,7 @@
 {
   "name": "tw-aria",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A Tailwind CSS plugin that adds support for ARIA attributes",
   "author": "Miquel de Domingo",
   "license": "MIT",
