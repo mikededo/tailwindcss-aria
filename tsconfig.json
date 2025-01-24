@@ -5,6 +5,7 @@
     "moduleDetection": "force",
     "module": "ESNext",
     "moduleResolution": "bundler",
+    "types": ["vitest/globals"],
     "allowImportingTsExtensions": true,
     "allowJs": false,
     "strict": true,
@@ -14,7 +15,6 @@
     "noUnusedParameters": false,
     "noEmit": true,
     "verbatimModuleSyntax": true,
-    "skipLibCheck": true,
-    "types": ["vitest/globals"]
+    "skipLibCheck": true
   }
 }
