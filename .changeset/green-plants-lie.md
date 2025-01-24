@@ -1,5 +1,5 @@
 ---
-"tailwindcss-aria": major
+"tw-aria": major
 ---
 
 Create library 🎉
