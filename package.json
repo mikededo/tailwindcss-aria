@@ -17,6 +17,10 @@
   ],
   "module": "./src/index.ts",
   "types": "./src/index.d.ts",
+  "files": [
+    "./src/*.ts",
+    "./src/index.d.ts"
+  ],
   "scripts": {
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "eslint . --fix",
