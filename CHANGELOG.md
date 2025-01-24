@@ -1,5 +1,11 @@
 # tw-aria
 
+## 1.0.3
+
+### Patch Changes
+
+- Build with `unbuild` ([`9a461ff`](https://github.com/mikededo/tw-aria/commit/9a461fff6cc5dbe14d4ef4240918ced5449b3433))
+
 ## 1.0.2
 
 ### Patch Changes
