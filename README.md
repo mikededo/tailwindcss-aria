@@ -3,6 +3,35 @@
 A Tailwind CSS plugin that adds support for all modern ARIA attributes. It also
 provides support to `group`, `peer` and negated variants.
 
+## Installation
+
+Install the plugin with:
+
+```sh
+bun add -d tw-aria
+```
+
+Link the plugin in your CSS using the [`@plugin` directive](https://tailwindcss.com/docs/functions-and-directives#plugin-directive):
+
+```css
+/* global.css */
+@plugin "tw-aria";
+```
+
+For v3 or v4 with `tailwind.config.{ts,js}`, use:
+
+```typescript
+import type { Config } from 'tailwindcss';
+import twAria from 'tw-aria';
+
+export default {
+  plugins: [twAria()],
+  // ... rest of the configuration
+} satisfies Config;
+```
+
+## Generated variants
+
 <details>
   <summary>List of generated variants</summary>
 
