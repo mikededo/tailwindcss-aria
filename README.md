@@ -11,14 +11,7 @@ Install the plugin with:
 bun add -d tw-aria
 ```
 
-Link the plugin in your CSS using the [`@plugin` directive](https://tailwindcss.com/docs/functions-and-directives#plugin-directive):
-
-```css
-/* global.css */
-@plugin "tw-aria";
-```
-
-For v3 or v4 with `tailwind.config.{ts,js}`, use:
+Add the plugin to your `tailwind.config.{js,ts}` file:
 
 ```typescript
 import type { Config } from 'tailwindcss';
