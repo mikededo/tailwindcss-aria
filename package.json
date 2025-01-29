@@ -35,14 +35,14 @@
     "test": "vitest --watch=false --globals"
   },
   "peerDependencies": {
-    "tailwindcss": "^4.0.0",
-    "typescript": "^5.7.3"
+    "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.16.0",
     "@changesets/cli": "^2.27.11",
     "@svitejs/changesets-changelog-github-compact": "^1.2.0",
     "eslint": "^9.18.0",
+    "typescript": "^5.7.3",
     "unbuild": "^3.3.1",
     "vitest": "^3.0.4"
   }
