@@ -1,5 +1,11 @@
 # tw-aria
 
+## 1.0.4
+
+### Patch Changes
+
+- Move `typescript` into `devDependency` ([`697ca91`](https://github.com/mikededo/tw-aria/commit/697ca9131ace27106edc2e7ef4fb460a71439f71))
+
 ## 1.0.3
 
 ### Patch Changes
