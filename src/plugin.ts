@@ -48,10 +48,15 @@ export const ARIA = {
   valuetext: ['true'],
 };
 
-export type Aria = () => ReturnType<typeof plugin>;
-export const aria: Aria = () => plugin(({ addVariant }) => {
+export type Aria = (config?: Partial<Record<keyof typeof ARIA, true>>) => ReturnType<typeof plugin>;
+export const aria: Aria = (config) => plugin(({ addVariant }) => {
   let key: keyof typeof ARIA;
   for (key in ARIA) {
+    // Skip if the attribute is not enabled in the config
+    if (config && !config[key]) {
+      continue;
+    }
+
     if (ARIA[key] instanceof Function) {
       continue;
     }
