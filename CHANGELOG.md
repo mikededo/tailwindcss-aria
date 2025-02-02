@@ -1,5 +1,13 @@
 # tw-aria
 
+## 1.1.0
+
+### Minor Changes
+
+- Adds missing aria attributes ([`d7170d1`](https://github.com/mikededo/tw-aria/commit/d7170d133e5ff6080a250408a5c15bb18d2e020e))
+
+- Allow filtering of the variants to reduce the LSP autocompletions ([`b786024`](https://github.com/mikededo/tw-aria/commit/b78602417238e4f0126e9e051d98646b97e975af))
+
 ## 1.0.4
 
 ### Patch Changes
