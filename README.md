@@ -1,7 +1,7 @@
 # Tailwind CSS ARIA
 
-![NPM Version](https://img.shields.io/npm/v/tw-aria?style=for-the-badge)
 ![NPM Downloads](https://img.shields.io/npm/dw/tw-aria?style=for-the-badge&logo=npm)
+![NPM Version](https://img.shields.io/npm/v/tw-aria?style=for-the-badge)
 
 A Tailwind CSS plugin that adds support for all modern ARIA attributes. It also
 provides support to `group`, `peer` and negated variants.
@@ -11,7 +11,7 @@ provides support to `group`, `peer` and negated variants.
 Install the plugin with:
 
 ```sh
-bun add -d tw-aria
+bun add tw-aria
 ```
 
 Add the plugin to your `tailwind.config.{js,ts}` file:
