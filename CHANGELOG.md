@@ -1,5 +1,11 @@
 # tw-aria
 
+## 1.1.1
+
+### Patch Changes
+
+- Update docs ([`7771a6e`](https://github.com/mikededo/tw-aria/commit/7771a6e9f10fe70a1f3678458978477811f9a90d))
+
 ## 1.1.0
 
 ### Minor Changes
